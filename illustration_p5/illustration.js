@@ -1,14 +1,16 @@
 // illustration.js
 
-var cookie;
-var mousee;
+var cookieImg;
+var mouseeImg;
+var backgroundImg;
 
 function preload() {
   img = loadImage("cookie.png");
 	img = loadImage("mousee.png");
+	img = loadImage("background.png");
 }
 function setup() {
-  image(img, 0, 0);
+  mouseImage(img, 0, 0);
 }
 
 function setup() {
@@ -16,5 +18,6 @@ function setup() {
 }
 
 function draw() {
+	//put background here
 	background(200,0,0);
 }
